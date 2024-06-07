@@ -10,7 +10,7 @@ import warnings
 def magic_box(x):
     """
 
-    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils.py)
+    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils/__init__.py)
 
     **Description**
 
@@ -58,7 +58,7 @@ def clone_named_parameters(param_dict):
 def clone_module(module, memo=None):
     """
 
-    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils.py)
+    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils/__init__.py)
 
     **Description**
 
@@ -158,7 +158,7 @@ def clone_module(module, memo=None):
 def detach_module(module, keep_requires_grad=False):
     """
 
-    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils.py)
+    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils/__init__.py)
 
     **Description**
 
@@ -239,7 +239,7 @@ def detach_distribution(dist):
 
 def update_module(module, updates=None, memo=None):
     r"""
-    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils.py)
+    [[Source]](https://github.com/learnables/learn2learn/blob/master/learn2learn/utils/__init__.py)
 
     **Description**
 
